@@ -1,0 +1,20 @@
+@id=e527fd02-c4fb-40c3-bb08-3668050c7b7b
+
+PUT http://localhost:5193/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Vegan Sunshine 3",
+    "description": "A delicious vegan breakfast",
+    "startDateTime": "2021-06-01T08:00:00",
+    "endDateTime": "2021-06-01T09:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omlette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
